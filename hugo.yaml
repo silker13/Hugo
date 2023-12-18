@@ -1,7 +1,7 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: Acme Corporation
-theme: Eclectic
+baseURL: https://chapter-03-03.hugoinaction.com
+languageCode: en-us 
+title: Acme Corporation 
+theme: Eclectic 
 author: 
   facebook: "https://facebook.com/example" 
   twitter: "https://twitter.com/example" 
@@ -45,13 +45,21 @@ params:
   logo: /image/logo.png
   logo_small: /image/logo.png
   about_us: >
-    Acme Corporation is the world's leading manufacturer
-    of digital shapes. From squares and circles to
-    triangles and hexagons, we have it all. Browse through
-    our collection of various forms with different
+    Acme Corporation is the world's leading manufacturer 
+    of digital shapes. From squares and circles to 
+    triangles and hexagons, we have it all. Browse through 
+    our collection of various forms with different 
     thicknesses and line styles. We shape the world.
     You live in it.
 
 
   recent_posts:
-  enable: true
+    enable: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+enableEmoji: true
